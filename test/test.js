@@ -953,7 +953,7 @@ tape( 'if an environment supports `Symbol.iterator` and the provided iterator is
 	var i;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	src = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
@@ -992,7 +992,7 @@ tape( 'if an environment supports `Symbol.iterator` and the provided iterator is
 	var i;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	src = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
@@ -1031,7 +1031,7 @@ tape( 'if an environment supports `Symbol.iterator` and the provided iterator is
 	var i;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	src = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
@@ -1070,7 +1070,7 @@ tape( 'if an environment supports `Symbol.iterator` and the provided iterator is
 	var i;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	src = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
@@ -1105,7 +1105,7 @@ tape( 'if an environment does not support `Symbol.iterator`, the returned iterat
 	var it;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	it = iterStridedBy( randu(), stride );
@@ -1124,7 +1124,7 @@ tape( 'if a provided iterator is not iterable, the returned iterator is not iter
 	var it;
 
 	iterStridedBy = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	rand = randu();

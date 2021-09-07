@@ -244,6 +244,22 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/advance`][@stdlib/iter/advance]: advances an iterator.
+-   [`@stdlib/iter/nth`][@stdlib/iter/nth]: return the nth iterated value.
+-   [`@stdlib/iter/strided`][@stdlib/iter/strided]: create an iterator which steps by a specified amount.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -302,6 +318,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/iter-strided-by/main/LICENSE
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/advance]: https://github.com/stdlib-js/iter-advance
+
+[@stdlib/iter/nth]: https://github.com/stdlib-js/iter-nth
+
+[@stdlib/iter/strided]: https://github.com/stdlib-js/iter-strided
+
+<!-- </related-links> -->
 
 </section>
 

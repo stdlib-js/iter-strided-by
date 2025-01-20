@@ -107,10 +107,10 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 The callback function is provided four arguments:
 
--   **value**: iterated value
--   **i**: source iteration index (zero-based)
--   **n**: iteration index (zero-based)
--   **curr**: current stride
+-   **value**: iterated value.
+-   **i**: source iteration index (zero-based).
+-   **n**: iteration index (zero-based).
+-   **curr**: current stride.
 
 To set the callback execution context, provide a `thisArg`.
 
@@ -307,7 +307,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
